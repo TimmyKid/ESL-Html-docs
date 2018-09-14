@@ -1,0 +1,154 @@
+body,html
+{
+  max-width:100%;
+  overflow-x: hidden;
+  font-size: 16px;
+}
+  body
+{
+  background: linear-gradient(rgba(0,0,0,.7),rgba(0, 0, 0, 0.5)),url("img/pexels-photo-327540.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*
+#firstSec
+{
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,.7),rgba(0, 0, 0, 0.5)),url("static/img/pexels-photo-327540.jpeg");
+  background-position: center;
+  background-size: cover;
+}*/
+#mainCard
+{
+  background-color: rgba(3, 169, 244, 0.2);
+  margin-bottom: calc(0% + 10%);
+  font-family:Segoe UI light;
+  color: lavender;
+  margin-top: 10%;
+  width: 51rem;
+  box-shadow: 5px 12px 10px -1vh black;
+}
+.display-4
+{
+  font-size: 45px;
+}
+.userIcon
+{
+  background-color: rgba(244, 67, 54, 0.9);
+  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+  position: relative;
+  margin-top: -8vh;
+  z-index: 2;
+  margin-left: 43%;
+  padding-top: 4vh;
+  color: black;
+}
+.row
+{
+  margin-top: -5vh;
+}
+.btn-light
+{
+  border-top-right-radius: -6vh;
+}
+.btn-dark
+{
+  border-top-left-radius: ;
+}
+.btn a, .lostPass a
+{
+  text-decoration: none;
+}
+.input-group i
+{
+  font-size: 20px;
+  color: ;
+  background: #263238;
+  padding:9px 0 0 2px;
+  margin-right: 2px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.done
+{
+  padding-left: 22vh;
+}
+.lostPass a
+{
+  text-decoration: none;
+  color: white;
+}
+.lostPass a:hover
+{
+  color: #4285F4;
+}
+
+.regNote
+{
+  padding-bottom: 4vh;
+}
+#group2 hr
+{
+  margin: 5vh 6vh 3vh 6vh ;
+
+}
+
+
+/*--media queries--*/
+/* //Extra-small devices (landscape phones, 320px and above) */
+@media (max-width: 375px)
+{
+
+}
+
+
+/* //small devices (landscape phones, 576px and up) */
+@media (max-width: 576px)
+{
+  .display-4
+  {
+    font-size: 25px;
+  }
+  #mainCard
+  {
+    width: 51rem;
+  }
+}
+
+/* //Medium devices (tablets, 768px and up) */
+@media (max-width: 768px)
+{
+  .display-4
+  {
+    font-size: 25px;
+  }
+  #mainCard
+  {
+    margin-top: 10%;
+    width: 48rem;
+  }
+}
+
+/* //Large devices (desktops,992px and up) */
+@media (max-width: 992px)
+{
+  .display-4
+  {
+    font-size: 35px;
+  }
+  #mainCard
+  {
+    margin-top: 10%;
+    width: 42rem;
+  }
+}
+
+/* //Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px)
+{
+
+}
